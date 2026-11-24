@@ -50,7 +50,7 @@ jobs:
       actions: write
     steps:
       - name: Harden runner
-        uses: step-security/harden-runner@v2.22.4
+        uses: step-security/harden-runner@v2.23.0
         with:
           egress-policy: audit
       - name: Start the Workspace workflow and these full tests on next
